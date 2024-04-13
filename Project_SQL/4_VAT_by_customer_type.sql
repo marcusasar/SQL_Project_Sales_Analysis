@@ -9,3 +9,14 @@ GROUP BY
 	customer_type
 ORDER BY
 	VAT DESC;
+
+
+SELECT 
+	product_line,
+    ROUND(AVG(VAT),2) AS VAT
+FROM 	
+	sales
+GROUP BY
+	product_line
+ORDER BY
+	VAT DESC;

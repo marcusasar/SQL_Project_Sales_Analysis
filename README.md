@@ -33,3 +33,17 @@ For my deep analysis into the sales, I harnessed the power of several key tools:
 # The Analysis
 
 Each query for this project aimed at investigating specific aspects of the sales. Here’s how I approached each question:
+
+  1. What is the number of sales made in each time of the day?
+
+To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by total sales, focusing on Thursday. This query highlights sales made in each tome of day:
+
+'''sql
+SELECT
+  time_of_day,
+  COUNT(*) AS cnt
+FROM sales
+WHERE day_name = 'Thursday'
+GROUP BY time_of_day
+ORDER BY cnt DESC;
+'''

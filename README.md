@@ -9,4 +9,8 @@ Walmart Sales Data: The primary dataset for this analysis is in [Data Folder](Da
 
 # Background
 
+The questions I wanted to answer through my SQL queries were:
+
+  1. 
+
 

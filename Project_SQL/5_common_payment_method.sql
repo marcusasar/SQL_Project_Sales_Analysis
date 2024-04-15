@@ -3,7 +3,8 @@
 SELECT
 	payment_method,
     COUNT(*) AS cnt
-FROM sales
+FROM 
+    sales
 GROUP BY 
 	payment_method
 ORDER BY 

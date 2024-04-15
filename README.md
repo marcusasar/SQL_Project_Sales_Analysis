@@ -146,11 +146,11 @@ This query identifies the common paymnent method.
 
 ```sql
 SELECT
-	customer_type,
-    COUNT(*) AS total
+	payment_method,
+    COUNT(*) AS cnt
 FROM sales
-GROUP BY customer_type
-ORDER BY total DESC;
+GROUP BY payment_method
+ORDER BY cnt DESC;
 ```
 
 Different payment methods used, with "Cash", "Ewallet", and "Credit card" being the options.

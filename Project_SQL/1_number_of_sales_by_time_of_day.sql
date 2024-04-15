@@ -11,3 +11,4 @@ GROUP BY
 	time_of_day
 ORDER BY
 	total_sales DESC;
+

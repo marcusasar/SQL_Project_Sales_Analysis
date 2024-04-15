@@ -59,6 +59,8 @@ Here's a summary of the noticeable trends in revenue across the three months:
 | March      | $108,867.15   |
 | February   | $95,727.38    |
 
+Table of the trend in revenue for the three months
+
 **2. What is the number of sales made in each time of the day?**
 
 To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by time of day, focusing on Thursday. This query highlights sales made in each time of day:

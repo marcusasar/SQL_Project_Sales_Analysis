@@ -34,7 +34,7 @@ For my deep analysis into the sales, I harnessed the power of several key tools:
 
 Each query for this project aimed at investigating specific aspects of the sales. Here’s how I approached each question:
 
-1. What is the number of sales made in each time of the day?
+**1. What is the number of sales made in each time of the day?**
 
 To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by time of day, focusing on Thursday. This query highlights sales made in each time of day:
 
@@ -65,7 +65,7 @@ Here are some insights we can draw from this data:
 
 Table of total sales for the time of day for Thursday
 
-2. Which customer type brings the most revenue?
+**2. Which customer type brings the most revenue?**
 
 This query help to identify the customer type the generate the mosst revenue.
 
@@ -90,3 +90,60 @@ Here's the breakdown of the customer type with the most revenue.
 | Normal         | $157,261.29  |
 
 Table of the customer type with higher revenue
+
+**3. Which customer type pays the most VAT(Value Added Tax)?**
+
+This query help to identify the customer type that pays the most tax(VAT)
+
+```sql
+SELECT 
+	customer_type,
+    ROUND(AVG(VAT),2) AS VAT
+FROM sales
+GROUP BY customer_type
+ORDER BY VAT DESC;
+```
+
+- VAT Contribution: The data shows that members paid a VAT of $15.61, while normal customers paid $15.10. This indicates that members, on average, contribute slightly more to the VAT revenue compared to normal customers.
+
+- Membership Status and Spending: The higher VAT paid by members suggests that they might engage in higher-value transactions or purchase more taxable goods/services compared to normal customers. This could be due to various factors such as membership perks, discounts, or exclusive offers that incentivize members to spend more.
+
+| customer_type  | VAT          |
+|----------------|------------- |
+| Member         | 15.61        |
+| Normal         | 15.10        |
+
+Table of customer type with VAT payment
+
+**4. What is the most selling product line?**
+
+This query helps to identy the most selling product lines.
+
+```sql
+SELECT
+	product_line,
+    COUNT(product_line) AS cnt
+FROM sales
+GROUP BY product_line
+ORDER BY cnt DESC;
+```
+
+- Popular Product Lines: Fashion accessories, food and beverages, and electronic accessories are the top three product lines based on the number of products sold. This suggests that these categories are in high demand among customers.
+
+| product_line            | cnt          |
+|-------------------------|------------- |
+| Fashion accessories     | 178          |
+| Food and beverages      | 174          |
+| Electronic accessories  | 169          |
+| Sports and travel       | 163          |
+| Home and lifestyle      | 160          |
+| Health and beauty       | 151          |
+
+Table of the most selling product line
+
+**5. What is the most common payment method?**
+
+This query identifies the common paymnent method.
+
+```sql
+```

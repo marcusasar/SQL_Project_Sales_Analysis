@@ -203,4 +203,16 @@ From the analysis several insights emerged:
 
 # Recommendations
 
+- Capitalize on peak revenue months, such as January, by implementing targeted marketing campaigns and promotions.
+
+- Focus marketing efforts and promotional activities during peak sales hours, particularly in the evening when sales are highest.
+
+- Member Retention: Since members contribute the most revenue, focus on retaining existing members. Offer loyalty programs, exclusive discounts, or personalized experiences to incentivize continued patronage and strengthen customer loyalty.
+
+- Membership Growth: Encourage more customers to become members to increase VAT revenue. Highlight the advantages of membership, such as access to exclusive deals or premium services, and promote membership sign-ups through targeted marketing campaigns
+
+- Inventory Management: Allocate more resources and attention to the "Fashion accessories" product line since it's the top-selling category. Ensure sufficient stock levels to meet customer demand and avoid stockouts.
+
+- Encourage Ewallet Usage: While cash is currently the most common payment method, there's a close second in Ewallet transactions. Encourage customers to use Ewallets by offering incentives such as discounts, loyalty points, or exclusive deals for Ewallet payments. Ensure that your business accepts a variety of Ewallet options to accommodate different customer preferences.
+
 

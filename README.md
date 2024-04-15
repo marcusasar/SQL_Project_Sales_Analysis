@@ -34,11 +34,11 @@ For my deep analysis into the sales, I harnessed the power of several key tools:
 
 Each query for this project aimed at investigating specific aspects of the sales. Here’s how I approached each question:
 
-  1. What is the number of sales made in each time of the day?
+1. What is the number of sales made in each time of the day?
 
-To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by total sales, focusing on Thursday. This query highlights sales made in each tome of day:
+To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by total sales, focusing on Thursday. This query highlights sales made in each time of day:
 
-'''sql
+```sql
 SELECT
   time_of_day,
   COUNT(*) AS cnt
@@ -46,4 +46,15 @@ FROM sales
 WHERE day_name = 'Thursday'
 GROUP BY time_of_day
 ORDER BY cnt DESC;
-'''
+```
+
+Here's a breakdown of sales made in each time of the day on Thursday:
+Here are some insights we can draw from this data:
+
+ - Evening Sales: Evening seems to be the peak time for sales, with a total of 56 units sold during this period. 
+   
+- Afternoon Sales: Afternoons show a slightly lower but still significant number of sales, with a total of 49 units sold.
+
+- Morning Sales: Mornings have the lowest sales figures among the three time periods, with only 33 units sold. 
+
+2. Which customer type brings the most revenue?

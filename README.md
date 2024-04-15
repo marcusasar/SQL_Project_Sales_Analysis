@@ -187,6 +187,8 @@ Different payment methods used, with "Cash", "Ewallet", and "Credit card" being 
 
 # Summarized Results as follows:
 
+From the analysis several insights emerged:
+
 - **Revenue Trends:** January generated the highest revenue, followed by March and then February. There's a noticeable decrease in revenue from January to February, followed by a slight increase in March.
 
 - **Most sales in each time of day:** The highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).
@@ -198,3 +200,7 @@ Different payment methods used, with "Cash", "Ewallet", and "Credit card" being 
 - **Most selling product line:** The most selling product line is "Fashion accessories," with a total count of 178 sales. Fashion accessories is the most popular product line based on the number of sales.
 
 - **Common payment method or mode:** Cash is the most frequently used payment method among the options provided.
+
+# Recommendations
+
+

@@ -186,3 +186,7 @@ Different payment methods used, with "Cash", "Ewallet", and "Credit card" being 
 - Credit card was used 309 times.
 
 # Summarized Results as follows:
+
+- **Revenue Trends:** January generated the highest revenue, followed by March and then February. There's a noticeable decrease in revenue from January to February, followed by a slight increase in March.
+
+- Most sales in each time of day: This data indicates that the highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).

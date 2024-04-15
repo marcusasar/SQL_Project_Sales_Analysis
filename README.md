@@ -36,7 +36,7 @@ Each query for this project aimed at investigating specific aspects of the sales
 
 1. What is the number of sales made in each time of the day?
 
-To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by total sales, focusing on Thursday. This query highlights sales made in each time of day:
+To identify the number of sales in each time of the day, I filtered it by the day name, grouped the data by time of day, focusing on Thursday. This query highlights sales made in each time of day:
 
 ```sql
 SELECT
@@ -55,6 +55,38 @@ Here are some insights we can draw from this data:
    
 - Afternoon Sales: Afternoons show a slightly lower but still significant number of sales, with a total of 49 units sold.
 
-- Morning Sales: Mornings have the lowest sales figures among the three time periods, with only 33 units sold. 
+- Morning Sales: Mornings have the lowest sales figures among the three time periods, with only 33 units sold.
+
+| time_of_day    | total_sales  |
+|----------------|------------- |
+| Evening        | 56           |
+| Afternoon      | 49           |
+| Morning        | 33           |
+
+Table of total sales for the time of day for Thursday
 
 2. Which customer type brings the most revenue?
+
+This query help to identify the customer type the generate the mosst revenue.
+
+```sql
+SELECT 
+    customer_type,
+    ROUND(SUM(revenue),2) AS total_revenue
+FROM sales
+GROUP BY customer_type
+ORDER BY total_revenue DESC;
+```
+
+Here's the breakdown of the customer type with the most revenue.
+
+- Revenue Disparity: The data shows that members generated a total revenue of $163,625.10, while normal customers generated $157,261.29. This suggests that members contribute more to the revenue compared to normal customers.
+
+- Membership Impact: The higher revenue from members indicates that your membership program or services targeting members might be effective in driving sales or generating higher value transactions.
+
+| customer_type  | total_revenue|
+|----------------|------------- |
+| Member         | $163,625.10  |
+| Normal         | $157,261.29  |
+
+Table of the customer type with higher revenue

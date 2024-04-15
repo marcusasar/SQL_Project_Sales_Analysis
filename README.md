@@ -133,10 +133,10 @@ ORDER BY VAT DESC;
 
 - Membership Status and Spending: The higher VAT paid by members suggests that they might engage in higher-value transactions or purchase more taxable goods/services compared to normal customers.
 
-| customer_type | VAT   |
-| ------------- | ----- |
-| Member        | 15.61 |
-| Normal        | 15.10 |
+| customer_type | VAT    |
+| ------------- | ------ |
+| Member        | $15.61 |
+| Normal        | $15.10 |
 
 Table of customer type with VAT payment
 
@@ -181,14 +181,20 @@ ORDER BY cnt DESC;
 
 Different payment methods used, with "Cash", "Ewallet", and "Credit card" being the options.
 
-- Cash was used 344 times.
-- Ewallet was used 342 times.
-- Credit card was used 309 times.
+- Cash: 344 transactions
+- Ewallet: 342 transactions
+- Credit card: 309 transactions
 
 # Summarized Results as follows:
 
 - **Revenue Trends:** January generated the highest revenue, followed by March and then February. There's a noticeable decrease in revenue from January to February, followed by a slight increase in March.
 
-- Most sales in each time of day: The highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).
+- **Most sales in each time of day:** The highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).
 
-- **Revenue by customer type:** The customer type "Member" brings the most revenue, with a total revenue of $163,625.10. In comparison, the "Normal" customer type generated a total revenue of $157,261.29. Therefore, the "Member" customer type is associated with higher revenue compared to the "Normal" customer type.
+- **Revenue by customer type:** The customer type "Member" brings the most revenue, with a total revenue of $163,625.10. Member customer type is associated with higher revenue compared to the Normal customer type.
+
+- **Customer type pays most VAT:** The customer type "Member" pays the most VAT, with a VAT amount of $15.61
+
+- **Most selling product line:** The most selling product line is "Fashion accessories," with a total count of 178 sales. Fashion accessories is the most popular product line based on the number of sales.
+
+- **Common payment method or mode:** Therefore, "Cash" is the most frequently used payment method among the options provided.

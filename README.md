@@ -47,10 +47,9 @@ FROM sales
 GROUP BY month_name
 ORDER BY total_revenue DESC;
 ```
+Here's a summary of the noticeable trends in revenue across the three months:
 
-factors influencing revenue throughout the quarter.
-
-- Monthly Revenue Comparison: January generated the highest revenue at $116,291.87, followed by March with $108,867.15, and February with $95,727.38. This sequence might suggest varying performance or external factors influencing revenue throughout the quarter.
+- Monthly Revenue Comparison: January generated the highest revenue at $116,291.87, followed by March with $108,867.15, and February with $95,727.38.
 
 - Trend Analysis: There's a noticeable decrease in revenue from January to February, followed by a slight increase in March. This pattern could indicate seasonal fluctuations, changes in consumer behavior, or specific business initiatives during each month.
 

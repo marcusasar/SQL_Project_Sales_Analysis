@@ -189,4 +189,6 @@ Different payment methods used, with "Cash", "Ewallet", and "Credit card" being 
 
 - **Revenue Trends:** January generated the highest revenue, followed by March and then February. There's a noticeable decrease in revenue from January to February, followed by a slight increase in March.
 
-- Most sales in each time of day: This data indicates that the highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).
+- Most sales in each time of day: The highest number of sales occurred in the evening(56 sales), followed by the afternoon(49 sales) and then the morning(33 sales).
+
+- **Revenue by customer type:** The customer type "Member" brings the most revenue, with a total revenue of $163,625.10. In comparison, the "Normal" customer type generated a total revenue of $157,261.29. Therefore, the "Member" customer type is associated with higher revenue compared to the "Normal" customer type.

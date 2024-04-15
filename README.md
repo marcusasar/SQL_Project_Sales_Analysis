@@ -13,10 +13,9 @@ The questions I wanted to answer through my SQL queries were:
 
   1. What is the number of sales made in each time of the day?
   2. Which customer type brings the most revenue?
-  3. Which city has the largest tax percent/ VAT (Value Added TAx)?
-  4. Which customer type pays the most VAT?
-  5. What is the most selling product line?
-  6. What is the most common payment method?
+  3. Which customer type pays the most VAT?
+  4. What is the most selling product line?
+  5. What is the most common payment method?
 
 # Tools Used
 
@@ -146,4 +145,16 @@ Table of the most selling product line
 This query identifies the common paymnent method.
 
 ```sql
+SELECT
+	customer_type,
+    COUNT(*) AS total
+FROM sales
+GROUP BY customer_type
+ORDER BY total DESC;
 ```
+
+Different payment methods used, with "Cash", "Ewallet", and "Credit card" being the options.
+
+- Cash was used 344 times.
+- Ewallet was used 342 times.
+- Credit card was used 309 times.

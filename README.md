@@ -79,6 +79,7 @@ Here's a breakdown of sales made in each time of the day on Thursday:
 Here are some insights we can draw from this data:
 
 - Evening Sales: Evening seems to be the peak time for sales, with a total of 56 units sold during this period.
+
 - Afternoon Sales: Afternoons show a slightly lower but still significant number of sales, with a total of 49 units sold.
 
 - Morning Sales: Mornings have the lowest sales figures among the three time periods, with only 33 units sold.
@@ -108,8 +109,6 @@ Here's the breakdown of the customer type with the most revenue.
 
 - Revenue Disparity: The data shows that members generated a total revenue of $163,625.10, while normal customers generated $157,261.29. This suggests that members contribute more to the revenue compared to normal customers.
 
-- Membership Impact: The higher revenue from members indicates that your membership program or services targeting members might be effective in driving sales or generating higher value transactions.
-
 | customer_type | total_revenue |
 | ------------- | ------------- |
 | Member        | $163,625.10   |
@@ -132,7 +131,7 @@ ORDER BY VAT DESC;
 
 - VAT Contribution: The data shows that members paid a VAT of $15.61, while normal customers paid $15.10. This indicates that members, on average, contribute slightly more to the VAT revenue compared to normal customers.
 
-- Membership Status and Spending: The higher VAT paid by members suggests that they might engage in higher-value transactions or purchase more taxable goods/services compared to normal customers. This could be due to various factors such as membership perks, discounts, or exclusive offers that incentivize members to spend more.
+- Membership Status and Spending: The higher VAT paid by members suggests that they might engage in higher-value transactions or purchase more taxable goods/services compared to normal customers.
 
 | customer_type | VAT   |
 | ------------- | ----- |
@@ -185,3 +184,5 @@ Different payment methods used, with "Cash", "Ewallet", and "Credit card" being 
 - Cash was used 344 times.
 - Ewallet was used 342 times.
 - Credit card was used 309 times.
+
+# Summarized Results as follows:

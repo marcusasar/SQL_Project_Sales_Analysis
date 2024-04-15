@@ -2,7 +2,7 @@
 
 SELECT 
     customer_type,
-    ROUND(SUM(total),2) AS total_revenue
+    ROUND(SUM(revenue),2) AS total_revenue
 FROM
     sales
 GROUP BY
